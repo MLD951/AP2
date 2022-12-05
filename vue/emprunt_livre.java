@@ -53,7 +53,7 @@ public class emprunt_livre {
 		frame.getContentPane().add(list);
 		
 		JButton btnValiderLemprunt = new JButton("Valider l'emprunt");
-		btnValiderLemprunt.setBounds(160, 216, 117, 25);
+		btnValiderLemprunt.setBounds(146, 200, 182, 25);
 		frame.getContentPane().add(btnValiderLemprunt);
 	}
 

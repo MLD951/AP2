@@ -5,6 +5,7 @@ import java.awt.EventQueue;
 import javax.swing.JFrame;
 import javax.swing.JButton;
 import javax.swing.JLabel;
+import javax.swing.JList;
 
 public class restitution_livre {
 
@@ -48,7 +49,11 @@ public class restitution_livre {
 		frame.getContentPane().add(btnRestituerLeLivre);
 		
 		JLabel lblSlectionnerLeLivre = new JLabel("Sélectionner le livre à restituer ");
-		lblSlectionnerLeLivre.setBounds(111, 28, 238, 15);
+		lblSlectionnerLeLivre.setBounds(111, 28, 238, 29);
 		frame.getContentPane().add(lblSlectionnerLeLivre);
+		
+		JList list = new JList();
+		list.setBounds(111, 69, 212, 91);
+		frame.getContentPane().add(list);
 	}
 }

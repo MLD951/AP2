@@ -53,7 +53,7 @@ public class ListeLivres {
 		frame.getContentPane().add(lblLi);
 		
 		List list = new List();
-		list.setBounds(130, 72, 139, 72);
+		list.setBounds(94, 73, 251, 123);
 		frame.getContentPane().add(list);
 		//for(int i=0;i!=ListAdherent.size();i++)
 		//{
